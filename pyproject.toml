@@ -1,0 +1,9 @@
+[project]
+name = "source-checker"
+version = "0.1.0"
+description = "Console tool that measures download speed for a given URL"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28",
+]
